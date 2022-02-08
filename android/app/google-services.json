@@ -1,0 +1,127 @@
+{
+  "project_info": {
+    "project_number": "302973897559",
+    "firebase_url": "https://sdkdemo2-f3f87.firebaseio.com",
+    "project_id": "sdkdemo2-f3f87",
+    "storage_bucket": "sdkdemo2-f3f87.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:302973897559:android:2fab7e54cf01e0aea48c12",
+        "android_client_info": {
+          "package_name": "com.VipinGames.FoodEater"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "302973897559-g6kg4u1d92uu2t6mo9scpk5g94scliep.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRzrOaDMC0rT3VzTXKAsqYDqF8BrK0kJ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "302973897559-g6kg4u1d92uu2t6mo9scpk5g94scliep.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:302973897559:android:f1b9da6004825c03a48c12",
+        "android_client_info": {
+          "package_name": "com.vicky7230.gunny"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "302973897559-g6kg4u1d92uu2t6mo9scpk5g94scliep.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRzrOaDMC0rT3VzTXKAsqYDqF8BrK0kJ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "302973897559-g6kg4u1d92uu2t6mo9scpk5g94scliep.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:302973897559:android:7c52a15b3b33df46a48c12",
+        "android_client_info": {
+          "package_name": "com.vicky7230.moengagesdkdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "302973897559-g6kg4u1d92uu2t6mo9scpk5g94scliep.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRzrOaDMC0rT3VzTXKAsqYDqF8BrK0kJ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "302973897559-g6kg4u1d92uu2t6mo9scpk5g94scliep.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:302973897559:android:83b9938c0b382306a48c12",
+        "android_client_info": {
+          "package_name": "io.ionic.starter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "302973897559-g6kg4u1d92uu2t6mo9scpk5g94scliep.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRzrOaDMC0rT3VzTXKAsqYDqF8BrK0kJ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "302973897559-g6kg4u1d92uu2t6mo9scpk5g94scliep.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
