@@ -14,7 +14,7 @@ import {
 })
 export class HomePage {
 
-  tag: string = "AngularSampleApp_HomePage";
+  tag: string = "CAPACITOR_LOG";
 
   constructor(private data: DataService) {}
 
@@ -40,6 +40,7 @@ export class HomePage {
       console.log(this.tag + " Received callback 'inAppCampaignClicked',  data: " + JSON.stringify(data))
     });
 
+    //have not verified this
     MoECapacitorCore.addListener("inAppCampaignCustomAction", (data: MoEInAppCustomActionData) => {
       console.log(this.tag + " Received callback 'inAppCampaignCustomAction',  data: " + JSON.stringify(data))
     });
@@ -86,7 +87,7 @@ export class HomePage {
       MoECapacitorCore.setUserLocation({ location: { latitude: 25.23, longitude: 73.23 } });
       MoECapacitorCore.setUserAttributeLocation({ name: "default location attribute", location: { latitude: 25.23, longitude: 73.23 } });
       MoECapacitorCore.setUserAttributeDate({ name: "LastPurchaseDate", value: "1970-01-01T12:00:00Z" });
-      break;
+    break;
 
     case "Track event":
       console.log(this.tag + " trackInteractiveEvent() :: ");
@@ -108,7 +109,17 @@ export class HomePage {
         isNonInteractive: false
       };
       MoECapacitorCore.trackEvent({ eventName: "trackInteractiveEvent", eventAttributes: prop });
+      break;
+      
+      case "Show InApps":
+        console.log(this.tag + " showInApp() :: ");
+        MoECapacitorCore.showInApp();
       break;  
+      
+      case "Show Self InApps":
+        console.log(this.tag + " getSelfHandledInApp() :: ");
+        MoECapacitorCore.getSelfHandledInApp();
+      break;
     }
 
   }

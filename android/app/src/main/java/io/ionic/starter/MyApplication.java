@@ -9,11 +9,17 @@ import com.moengage.core.config.FcmConfig;
 import com.moengage.core.config.LogConfig;
 import com.moengage.core.config.NotificationConfig;
 
+import timber.log.Timber;
+
 public class MyApplication extends Application {
 
   @Override
   public void onCreate() {
     super.onCreate();
+
+    if (BuildConfig.DEBUG) {
+      Timber.plant(new Timber.DebugTree());
+    }
 
     MoEngage.Builder moEngage =
       new MoEngage.Builder(this, "KIO6QOE5L2E90ZQMCGNZTVRK")

@@ -16,10 +16,10 @@ export class DataService {
       fromName: 'Track event',
     },
     {
-      fromName: 'Jordan Firth',
+      fromName: 'Show InApps',
     },
     {
-      fromName: 'Bill Thomas',
+      fromName: 'Show Self InApps',
     }
   ];
 
